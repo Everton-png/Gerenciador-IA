@@ -1,0 +1,33 @@
+.suggestion__display {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 28px 20px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--surface-border);
+  min-height: 180px;
+  justify-content: center;
+  text-align: center;
+}
+
+.suggestion__icon {
+  width: 28px;
+  height: 28px;
+  color: var(--accent-light);
+}
+
+.suggestion__text {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: var(--text);
+}
+
+@media (min-width: 768px) {
+  .suggestion__text {
+    font-size: 1.5rem;
+  }
+}
